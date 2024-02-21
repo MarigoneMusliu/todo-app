@@ -1,0 +1,36 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #fffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 900px; /* Adjust the width as needed */
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+
+.delete-button {
+  margin-left: auto;
+}
+
+.completed-tasks {
+  margin-top: 20px;
+}
